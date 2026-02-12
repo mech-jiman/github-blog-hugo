@@ -1,0 +1,99 @@
+title = "GitHub Projects Blog"
+baseURL = 'https://jiman.github.io/github-blog-hugo/'
+
+# This is what goes in <html lang="">
+languageCode = 'ko-kr'
+
+# This defines how dates are formatted
+defaultContentLanguage = "ko"
+
+# Enable emojis globally
+enableEmoji = true
+ignoreErrors = ["additional-script-loading-error"]
+
+# Traditional way: theme component resides in directory 'themes'
+theme = "hugo-blog-awesome"
+
+[services]
+# To enable Google Analytics 4 (gtag.js) provide G-MEASUREMENT_ID below.
+[services.googleAnalytics]
+  id = '' # G-MEASUREMENT_ID
+
+# To enable Disqus comments, provide Disqus Shortname below.
+[services.disqus]
+  shortname = ''
+
+# Set markup.highlight.noClasses=false to enable code highlight
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark.renderer]
+    unsafe = true
+	[markup.tableOfContents]
+		startLevel = 2
+		endLevel = 4
+		ordered = false
+
+############################## Korean language ################################
+[Languages.ko]
+  languageName = "한국어"
+  languageCode = "ko-kr"
+  contentDir = "content/ko"
+  weight = 1
+
+  [Languages.ko.menu]
+  [[Languages.ko.menu.main]]
+    pageRef="/"
+    name = '홈'
+    url = '/'
+    weight = 10
+  [[Languages.ko.menu.main]]
+    pageRef="posts"
+    name = '포스트'
+    url = '/posts/'
+    weight = 20
+  [[Languages.ko.menu.main]]
+    pageRef="about"
+    name = '소개'
+    url = '/about/'
+    weight = 30
+
+[Languages.ko.params]
+  sitename = "GitHub Projects Blog"
+  defaultColor = "dark"
+  description = "GitHub 인기 프로젝트를 소개하는 개발자 블로그"
+  mainSections = ['posts']
+  toc = true
+  tocOpen = false
+  goToTop = true
+  dateFormat = "2006년 01월 02일"
+  rssFeedDescription = "summary"
+
+[Languages.ko.params.author]
+  avatar = "avatar.jpg"
+  intro = "GitHub Projects Blog"
+  name = "Jiman"
+  description = "AI로 자동화된 GitHub 프로젝트 소개 블로그"
+
+[Languages.ko.params.webmanifest]
+  name = "GitHub Projects Blog"
+  short_name = "GitHubBlog"
+  start_url = "/"
+  theme_color = "#434648"
+  background_color = "#fff"
+  display = "standalone"
+
+###################################################################
+
+# Social icons
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/jiman"
+
+[[params.socialIcons]]
+name = "twitter"
+url = "https://twitter.com"
+
+[[params.socialIcons]]
+name = "Rss"
+url = "/index.xml"
