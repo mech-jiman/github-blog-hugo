@@ -1,5 +1,5 @@
 title = "GitHub Projects Blog"
-baseURL = 'https://jiman.github.io/github-blog-hugo/'
+baseURL = 'https://mech-jiman.github.io/github-blog-hugo/'
 
 # This is what goes in <html lang="">
 languageCode = 'ko-kr'
