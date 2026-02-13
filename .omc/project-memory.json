@@ -1,0 +1,124 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1770905320783,
+  "projectRoot": "/home/jiman/.openclaw/workspace/github-blog-hugo",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "assets",
+      "public",
+      "static"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "archetypes": {
+      "path": "archetypes",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1770905320773,
+      "keyFiles": [
+        "default.md"
+      ]
+    },
+    "assets": {
+      "path": "assets",
+      "purpose": "Static assets",
+      "fileCount": 0,
+      "lastAccessed": 1770905320778,
+      "keyFiles": []
+    },
+    "content": {
+      "path": "content",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1770905320779,
+      "keyFiles": []
+    },
+    "data": {
+      "path": "data",
+      "purpose": "Data files",
+      "fileCount": 0,
+      "lastAccessed": 1770905320779,
+      "keyFiles": []
+    },
+    "i18n": {
+      "path": "i18n",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1770905320780,
+      "keyFiles": []
+    },
+    "layouts": {
+      "path": "layouts",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1770905320780,
+      "keyFiles": []
+    },
+    "public": {
+      "path": "public",
+      "purpose": "Public files",
+      "fileCount": 9,
+      "lastAccessed": 1770905320781,
+      "keyFiles": [
+        "404.html",
+        "browserconfig.xml",
+        "code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css",
+        "favicon.ico",
+        "index.html"
+      ]
+    },
+    "resources": {
+      "path": "resources",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1770905320781,
+      "keyFiles": []
+    },
+    "static": {
+      "path": "static",
+      "purpose": "Static files",
+      "fileCount": 0,
+      "lastAccessed": 1770905320781,
+      "keyFiles": []
+    },
+    "themes": {
+      "path": "themes",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1770905320782,
+      "keyFiles": []
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "hugo.toml",
+      "accessCount": 2,
+      "lastAccessed": 1770905908232,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
